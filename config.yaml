@@ -1,0 +1,22 @@
+#YAML
+main:
+ size_x: 144
+ size_y: 66
+ element_size_x: 80
+ element_size_y: 8
+ element_offset_x: 34
+ element_offset_y: 16
+ element_interval: 1
+ picture: background.txt
+elements:
+ - picture: watch_movies.txt
+   action: /home/cornholio/desktop/theMediaShell.sh
+ - picture: listen_music.txt
+   action: sonata
+ - picture: play_games.txt
+   action: /home/cornholio/desktop/nes.sh
+ - picture: browse_files.txt
+   action: pcmanfm
+ - picture: rest.txt
+   action: /home/cornholio/desktop/.shutdown.sh
+
