@@ -99,9 +99,10 @@ class Element(object):
         self.__window.refresh()
 
     def activate(self):
-        subprocess.Popen(self.__action,
-                         stdout=subprocess.PIPE,
-                         stderr=subprocess.STDOUT)
+        a = subprocess.Popen(self.__action,
+                             stdout=subprocess.PIPE,
+                             stderr=subprocess.STDOUT)
+        a.wait()
         exit(0)
 
 

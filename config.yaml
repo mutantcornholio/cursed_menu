@@ -1,7 +1,7 @@
 #YAML
 main:
- size_x: 144
- size_y: 76
+ size_x: 150
+ size_y: 78
  element_size_x: 80
  element_size_y: 8
  element_offset_x: 34
@@ -16,7 +16,6 @@ elements:
  - picture: play_games.txt
    action: /home/cornholio/desktop/nes.sh
  - picture: browse_files.txt
-   action: pcmanfm
+   action: /home/cornholio/desktop/pcmanfm.sh
  - picture: rest.txt
    action: /home/cornholio/desktop/.shutdown.sh
-
